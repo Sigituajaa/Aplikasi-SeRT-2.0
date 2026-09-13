@@ -1,9 +1,11 @@
 {
-  "name": "sert-sepang-indah",
-  "version": "1.0.0",
-  "description": "Aplikasi warga SeRT - Pondok Sepang Indah (3 role: super admin, admin RT, warga), statis (HTML/CSS/JS) dengan Firebase sebagai backend",
-  "scripts": {
-    "start": "npx serve ."
+  "name": "sert-sepang-indah-functions",
+  "description": "Cloud Functions: buat invoice Xendit & terima webhook pembayaran",
+  "engines": { "node": "18" },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^5.0.0"
   },
-  "license": "MIT"
+  "private": true
 }
