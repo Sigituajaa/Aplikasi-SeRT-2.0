@@ -1,0 +1,9 @@
+{
+  "name": "sert-sepang-indah",
+  "version": "1.0.0",
+  "description": "Aplikasi warga SeRT - Pondok Sepang Indah (3 role: super admin, admin RT, warga), statis (HTML/CSS/JS) dengan Firebase sebagai backend",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "license": "MIT"
+}
